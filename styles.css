@@ -1,0 +1,17 @@
+.graphic {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    background-image: url("Assets/graphic.avif");
+    background-size: cover;
+}
+.content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 60%;
+    background-color: aquamarine;
+}
