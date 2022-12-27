@@ -18,7 +18,16 @@
     right: 0;
     height: 100%;
     width: 60%;
-    background-color: aquamarine;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(249, 250, 251);
+    justify-content: center;
+    gap: 10px;
+}
+.description {
+    font-size: 16px;
+    margin: 20px;
 }
 .banner {
     position: relative;
@@ -38,4 +47,29 @@
 }
 #logo {
     max-height: 100%;
+}
+form {
+    background-color: white;
+    box-shadow: 0 1px 5px gray;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding: 20px;
+}
+label {
+    display: block;
+}
+.form-title {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.input {
+    width: 40%;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    opacity: 50%;
+}
+input {
+    width: 100%;
 }
