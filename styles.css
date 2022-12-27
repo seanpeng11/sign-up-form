@@ -80,3 +80,11 @@ button {
     width: 200px;
     padding: 10px;
 }
+input:focus{
+    border: 2px solid blue;
+    box-shadow: 1px 1px 5px blue;
+}
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
