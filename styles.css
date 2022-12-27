@@ -84,6 +84,13 @@ input:focus{
     border: 2px solid blue;
     box-shadow: 1px 1px 5px blue;
 }
+.error {
+    border: 2px solid red;
+}
+.errorinfo::after {
+    color: red;
+    content: "*Passwords don't match!"
+}
 button:hover {
     opacity: 0.8;
     cursor: pointer;
