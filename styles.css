@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Norse";
+    src: url(Assets/Norse-Bold.otf);
+
+}
 .graphic {
     position: fixed;
     top: 0;
@@ -14,4 +19,23 @@
     height: 100%;
     width: 60%;
     background-color: aquamarine;
+}
+.banner {
+    position: relative;
+    top: 120px;
+    box-sizing: content-box;
+    background-color: rgba(0, 0, 0, 0.482);
+    height: 150px;
+    display: flex;
+    padding: 20px;
+    font-family: "Norse";
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    min-height: 0;
+    gap: 10px;
+}
+#logo {
+    max-height: 100%;
 }
